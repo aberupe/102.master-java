@@ -46,6 +46,6 @@ public class Unitario {
         var l = k--;//primero se usa el valor de la variable y queda pendiente decremento
         System.out.println("k = " + k);//tenia pendiente un decremento
         System.out.println("l = " + l);
-        System.out.println("l = " + l);
+        
     }
 }

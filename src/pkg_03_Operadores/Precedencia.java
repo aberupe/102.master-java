@@ -1,5 +1,7 @@
 package pkg_03_Operadores;
 
+import java.util.concurrent.CountDownLatch;
+
 public class Precedencia {
     public static void main(String arg[]) {
         var x = 5;
@@ -11,6 +13,9 @@ public class Precedencia {
 
         var resultado = 4 + 5 * 6 / 3; // operacion de multiplicacion y division tiene la misma prioridad
         // 4 + ((5*6)/3)
+        System.out.println("resultado = " + resultado);
+
+        resultado = (4 + 5) * 6 / 3;// ((4+5)*6) / 3
         System.out.println("resultado = " + resultado);
 
     }

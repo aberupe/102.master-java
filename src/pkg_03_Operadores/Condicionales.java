@@ -14,8 +14,8 @@ public class Condicionales {
             System.out.println("Fuera de rango");
         }
 
-        var vacaciones = true;
-        var diaDescanso = false;
+        var vacaciones = false;
+        var diaDescanso = true;
         if (vacaciones || diaDescanso) {
             System.out.println("Padre puede asistir al juego de su hijo");
         } else {

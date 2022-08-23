@@ -1,6 +1,6 @@
 package pkg_03_Operadores;
 
-public class Igualdad_Relacionales {
+public class IgualdadRelacionales {
     public static void main(String args[]) {
         var a = 3;
         var b = 2;
